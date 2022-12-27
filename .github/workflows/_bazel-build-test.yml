@@ -170,7 +170,7 @@ jobs:
 
       - name: Upload test artifacts
         uses: ./.github/actions/upload-test-artifacts
-        if: always() && steps.test.status == 'completed'
+        if: always() && steps.test.conclusion != 'skipped'
         with:
           file-suffix: bazel-${{ github.job }}_${{ steps.get-job-id.outputs.job-id }}
 
