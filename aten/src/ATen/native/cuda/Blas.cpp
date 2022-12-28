@@ -154,7 +154,13 @@ Tensor& addmm_out_cuda_impl(Tensor& result, const Tensor& self, const Tensor& ma
   at::ScalarType scalar_type = self.scalar_type();
   c10::MaybeOwned<Tensor> self_;
   if (&result != &self) {
-#if defined(CUDA_VERSION) && CUDA_VERSION >= 11040 && !defined(_MSC_VER)
+    const char* env_value = std::getenv("DISABLE_ADDMM_CUDA_LT");
+    bool disable_addmm_cuda_lt = false;
+    if (env_value && env_value == "TRUE") {
+      disable_addmm_cuda_lt = true;
+    }
+#if defined(CUDA_VERSION) && CUDA_VERSION >= 11040 && !defined(_MSC_VER) && \
+    !disable_addmm_cuda_lt
     // Strangely, if mat2 has only 1 row or column, we get
     // CUBLAS_STATUS_INVALID_VALUE error from cublasLtMatmulAlgoGetHeuristic.
     // self.dim() == 1 && result.dim() == 2 && self.sizes()[0] == mat2_sizes[1]
