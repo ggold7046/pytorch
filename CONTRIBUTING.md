@@ -341,13 +341,13 @@ in `test/test_jit.py`. Your command would be:
 python test/test_jit.py TestJit.test_Sequential
 ```
 
-**Weird note:** In our CI (Continuous Integration) jobs, we actually run the tests from the `test` folder and **not** the root of the repo, since there are various dependencies we set up for CI that expects the tests to be run from the test folder. As such, there may be some inconsistencies between local testing and CI testing--if you observe an inconsistency, please [file an issue](https://github.com/pytorch/pytorch/issues/new/choose).
+**Weird note:** In our CI (Continuous Integration) jobs, we actually run the tests from the `test` folder and **not** the root of the repo, since there are various dependencies we set up for CI that expect the tests to be run from the test folder. As such, there may be some inconsistencies between local testing and CI testing; if you observe an inconsistency, please [file an issue](https://github.com/pytorch/pytorch/issues/new/choose).
 
 ### Better local unit tests with `pytest`
 
 We don't officially support `pytest`, but it works well with our
 `unittest` tests and offers a number of useful features for local
-developing. Install it via `pip install pytest`.
+development. Install it via `pip install pytest`.
 
 If you want to just run tests that contain a specific substring, you can
 use the `-k` flag:
