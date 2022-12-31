@@ -42,7 +42,7 @@ Our trunk health (Continuous Integration signals) can be found at [hud.pytorch.o
 
 <!-- tocstop -->
 
-## More About PyTorch
+## More On PyTorch
 
 At a granular level, PyTorch is a library that consists of the following components:
 
@@ -51,7 +51,7 @@ At a granular level, PyTorch is a library that consists of the following compone
 | [**torch**](https://pytorch.org/docs/stable/torch.html) | A Tensor library like NumPy, with strong GPU support |
 | [**torch.autograd**](https://pytorch.org/docs/stable/autograd.html) | A tape-based automatic differentiation library that supports all differentiable Tensor operations in torch |
 | [**torch.jit**](https://pytorch.org/docs/stable/jit.html) | A compilation stack (TorchScript) to create serializable and optimizable models from PyTorch code  |
-| [**torch.nn**](https://pytorch.org/docs/stable/nn.html) | A neural networks library deeply integrated with autograd designed for maximum flexibility |
+| [**torch.nn**](https://pytorch.org/docs/stable/nn.html) | A neural network library deeply integrated with autograd is designed for maximum flexibility |
 | [**torch.multiprocessing**](https://pytorch.org/docs/stable/multiprocessing.html) | Python multiprocessing, but with magical memory sharing of torch Tensors across processes. Useful for data loading and Hogwild training |
 | [**torch.utils**](https://pytorch.org/docs/stable/data.html) | DataLoader and other utility functions for convenience |
 
@@ -68,8 +68,7 @@ If you use NumPy, then you have used Tensors (a.k.a. ndarray).
 
 ![Tensor illustration](./docs/source/_static/img/tensor_illustration.png)
 
-PyTorch provides Tensors that can live either on the CPU or the GPU and accelerates the
-computation by a huge amount.
+PyTorch provides tensors that can run on either the CPU or the GPU, greatly accelerating computation.
 
 We provide a wide variety of tensor routines to accelerate and fit your scientific computation needs
 such as slicing, indexing, mathematical operations, linear algebra, reductions.
