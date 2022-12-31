@@ -6,13 +6,13 @@ PyTorch is a Python package that provides two high-level features:
 - Tensor computation (like NumPy) with strong GPU acceleration
 - Deep neural networks built on a tape-based autograd system
 
-You can reuse your favorite Python packages such as NumPy, SciPy, and Cython to extend PyTorch when needed.
+You can reuse your favourite Python packages, such as NumPy, SciPy, and Cython, to extend PyTorch when needed.
 
 Our trunk health (Continuous Integration signals) can be found at [hud.pytorch.org](https://hud.pytorch.org/ci/pytorch/pytorch/master).
 
 <!-- toc -->
 
-- [More About PyTorch](#more-about-pytorch)
+- [More On PyTorch](#more-about-pytorch)
   - [A GPU-Ready Tensor Library](#a-gpu-ready-tensor-library)
   - [Dynamic Neural Networks: Tape-Based Autograd](#dynamic-neural-networks-tape-based-autograd)
   - [Python First](#python-first)
