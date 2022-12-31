@@ -127,13 +127,13 @@ This enables you to train bigger deep learning models than before.
 
 ### Extensions Without Pain
 
-Writing new neural network modules, or interfacing with PyTorch's Tensor API was designed to be straightforward
-and with minimal abstractions.
+Writing new neural network modules or interacting with PyTorch's Tensor API was designed to be straightforward
+with minimal abstractions.
 
 You can write new neural network layers in Python using the torch API
-[or your favorite NumPy-based libraries such as SciPy](https://pytorch.org/tutorials/advanced/numpy_extensions_tutorial.html).
+[or your favourite NumPy-based libraries such as SciPy](https://pytorch.org/tutorials/advanced/numpy_extensions_tutorial.html).
 
-If you want to write your layers in C/C++, we provide a convenient extension API that is efficient and with minimal boilerplate.
+If you want to write your layers in C/C++, we provide a convenient extension API that is efficient and has minimal boilerplate.
 No wrapper code needs to be written. You can see [a tutorial here](https://pytorch.org/tutorials/advanced/cpp_extension.html) and [an example here](https://github.com/pytorch/extension-cpp).
 
 
