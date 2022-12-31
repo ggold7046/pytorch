@@ -70,13 +70,13 @@ If you use NumPy, then you have used Tensors (a.k.a. ndarray).
 
 PyTorch provides tensors that can run on either the CPU or the GPU, greatly accelerating computation.
 
-We provide a wide variety of tensor routines to accelerate and fit your scientific computation needs
-such as slicing, indexing, mathematical operations, linear algebra, reductions.
+We provide a wide variety of tensor routines to accelerate and fit your scientific computation needs,
+such as slicing, indexing, mathematical operations, linear algebra, and reductions.
 And they are fast!
 
 ### Dynamic Neural Networks: Tape-Based Autograd
 
-PyTorch has a unique way of building neural networks: using and replaying a tape recorder.
+PyTorch has a unique way of building neural networks: by using and replaying a tape recorder.
 
 Most frameworks such as TensorFlow, Theano, Caffe, and CNTK have a static view of the world.
 One has to build a neural network and reuse the same structure again and again.
@@ -97,10 +97,10 @@ You get the best of speed and flexibility for your crazy research.
 ### Python First
 
 PyTorch is not a Python binding into a monolithic C++ framework.
-It is built to be deeply integrated into Python.
+It is built to be deeply integrated for Python.
 You can use it naturally like you would use [NumPy](https://www.numpy.org/) / [SciPy](https://www.scipy.org/) / [scikit-learn](https://scikit-learn.org) etc.
-You can write your new neural network layers in Python itself, using your favorite libraries
-and use packages such as [Cython](https://cython.org/) and [Numba](http://numba.pydata.org/).
+You can write your new neural network layers in Python itself, using your favourite libraries
+and packages such as [Cython](https://cython.org/) and [Numba](http://numba.pydata.org/).
 Our goal is to not reinvent the wheel where appropriate.
 
 ### Imperative Experiences
