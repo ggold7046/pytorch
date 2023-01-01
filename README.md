@@ -420,23 +420,23 @@ Three-pointers to get you started:
 
 ## Releases and Contributing
 
-PyTorch has a 90-day release cycle (major releases). Please let us know if you encounter a bug by [filing an issue](https://github.com/pytorch/pytorch/issues).
+PyTorch has a 90-day release cycle (for major releases). Please let us know if you encounter a bug by [filing an issue](https://github.com/pytorch/pytorch/issues).
 
-We appreciate all contributions. If you are planning to contribute back bug-fixes, please do so without any further discussion.
+We appreciate all contributions. If you intend to contribute bug fixes, please do so without further discussion.
 
 If you plan to contribute new features, utility functions, or extensions to the core, please first open an issue and discuss the feature with us.
-Sending a PR without discussion might end up resulting in a rejected PR because we might be taking the core in a different direction than you might be aware of.
+Sending a PR without discussion might end up resulting in a rejected PR because we might be taking the core in a different direction than you are aware of.
 
 To learn more about making a contribution to Pytorch, please see our [Contribution page](CONTRIBUTING.md).
 
 ## The Team
 
-PyTorch is a community-driven project with several skillful engineers and researchers contributing to it.
+PyTorch is a community-driven project with several skilled engineers and researchers contributing to it.
 
 PyTorch is currently maintained by [Adam Paszke](https://apaszke.github.io/), [Sam Gross](https://github.com/colesbury), [Soumith Chintala](http://soumith.ch) and [Gregory Chanan](https://github.com/gchanan) with major contributions coming from hundreds of talented individuals in various forms and means.
 A non-exhaustive but growing list needs to mention: Trevor Killeen, Sasank Chilamkurthy, Sergey Zagoruyko, Adam Lerer, Francisco Massa, Alykhan Tejani, Luca Antiga, Alban Desmaison, Andreas Koepf, James Bradbury, Zeming Lin, Yuandong Tian, Guillaume Lample, Marat Dukhan, Natalia Gimelshein, Christian Sarofeen, Martin Raison, Edward Yang, Zachary Devito.
 
-Note: This project is unrelated to [hughperkins/pytorch](https://github.com/hughperkins/pytorch) with the same name. Hugh is a valuable contributor to the Torch community and has helped with many things Torch and PyTorch.
+Note: This project is unrelated to [hughperkins/pytorch](https://github.com/hughperkins/pytorch) with the same name. Hugh is a valuable contributor to the Torch community and has helped with many things related to Torch and PyTorch.
 
 ## License
 
