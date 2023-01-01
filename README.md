@@ -373,13 +373,13 @@ pip install -r requirements.txt
 You can then build the documentation by running `make <format>` from the
 `docs/` folder. Run `make` to get a list of all available output formats.
 
-If you get a katex error run `npm install katex`.  If it persists, try
+If you get a katex error, run `npm install katex`.  If it persists, try
 `npm install -g katex`
 
 > Note: if you installed `nodejs` with a different package manager (e.g.,
 `conda`) then `npm` will probably install a version of `katex` that is not
 compatible with your version of `nodejs` and doc builds will fail.
-A combination of versions that is known to work is `node@6.13.1` and
+A combination of versions known to work is `node@6.13.1` and
 `katex@0.13.18`. To install the latter with `npm` you can run
 ```npm install -g katex@0.13.18```
 
